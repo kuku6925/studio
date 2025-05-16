@@ -32,7 +32,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
             <p className="text-sm mt-4">
-              123 Tech Avenue, Innovation City, TX 75001
+              G12, Casa Homes, Sector 115, Mohali, Punjab
             </p>
             <div className="flex items-center space-x-2 text-sm mt-2">
               <Mail className="h-4 w-4" />

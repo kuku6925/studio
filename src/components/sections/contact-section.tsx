@@ -71,7 +71,7 @@ export function ContactSection() {
             <div className="space-y-4 text-muted-foreground">
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary mt-1" />
-                <p><strong>Address:</strong> 123 Tech Avenue, Innovation City, TX 75001</p>
+                <p><strong>Address:</strong> G12, Casa Homes, Sector 115, Mohali, Punjab</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary" />
