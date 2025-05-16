@@ -1,5 +1,5 @@
 import { SiteConfig } from '@/config/site';
-import { Rocket, Linkedin, Twitter, Github } from 'lucide-react';
+import { Rocket, Mail } from 'lucide-react';
 import Link from 'next/link';
 import { Container } from '@/components/shared/container';
 
@@ -31,17 +31,15 @@ export function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
-            <div className="flex space-x-4">
-              <Link href="#" aria-label="LinkedIn" className="hover:text-primary transition-colors"><Linkedin /></Link>
-              <Link href="#" aria-label="Twitter" className="hover:text-primary transition-colors"><Twitter /></Link>
-              <Link href="#" aria-label="GitHub" className="hover:text-primary transition-colors"><Github /></Link>
-            </div>
             <p className="text-sm mt-4">
               123 Tech Avenue, Innovation City, TX 75001
             </p>
-            <p className="text-sm">
-              contact@devansh.digital
-            </p>
+            <div className="flex items-center space-x-2 text-sm mt-2">
+              <Mail className="h-4 w-4" />
+              <a href="mailto:devansh@enterprises.in" className="hover:text-primary transition-colors">
+                devansh@enterprises.in
+              </a>
+            </div>
           </div>
         </div>
         <div className="mt-10 pt-8 border-t border-border text-center text-sm">

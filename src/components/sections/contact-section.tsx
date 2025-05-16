@@ -15,7 +15,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Container } from '@/components/shared/container';
 import { useEffect } from 'react';
 import { useToast } from '@/hooks/use-toast';
-import { Loader2 } from 'lucide-react';
+import { Loader2, Mail, Phone, MapPin } from 'lucide-react';
 
 const initialState: ContactFormState = {
   message: '',
@@ -62,16 +62,25 @@ export function ContactSection() {
   return (
     <section className="py-16 lg:py-24 bg-gradient-to-br from-background to-secondary">
       <Container>
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">Get in Touch</h2>
             <p className="text-lg text-muted-foreground mb-8">
               Have a project in mind or want to learn more about our services? We'd love to hear from you. Fill out the form, and we'll get back to you as soon as possible.
             </p>
             <div className="space-y-4 text-muted-foreground">
-              <p><strong>Address:</strong> 123 Tech Avenue, Innovation City, TX 75001</p>
-              <p><strong>Email:</strong> contact@devansh.digital</p>
-              <p><strong>Phone:</strong> (555) 123-4567</p>
+              <div className="flex items-start space-x-3">
+                <MapPin className="h-5 w-5 text-primary mt-1" />
+                <p><strong>Address:</strong> 123 Tech Avenue, Innovation City, TX 75001</p>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Mail className="h-5 w-5 text-primary" />
+                <p><strong>Email:</strong> <a href="mailto:devansh@enterprises.in" className="hover:text-primary transition-colors">devansh@enterprises.in</a></p>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Phone className="h-5 w-5 text-primary" />
+                <p><strong>Phone:</strong> (555) 123-4567</p>
+              </div>
             </div>
           </div>
           <Card className="shadow-xl">
