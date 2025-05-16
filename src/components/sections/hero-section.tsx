@@ -10,7 +10,7 @@ export function HeroSection() {
       <Container>
         <div className="space-y-6 text-center lg:text-left max-w-3xl mx-auto lg:mx-0">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-            <span className="block">Empowering Your</span>
+            <span className="block mb-2">Empowering Your</span>
             <span className="block text-primary">Digital Transformation</span>
           </h1>
           <p className="text-lg text-muted-foreground">
