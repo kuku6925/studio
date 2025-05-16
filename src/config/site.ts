@@ -2,12 +2,12 @@ import type { NavItem, Service, PortfolioItem, Testimonial } from '@/types';
 import { Lightbulb, Users, Presentation, BarChart3, ShieldCheck, ClipboardList, DatabaseBackup, Shield, CloudCog, HomeIcon, Blocks, LockKeyhole, Palette, Smartphone, Globe, Hexagon, Brain, Briefcase } from 'lucide-react';
 
 export const SiteConfig = {
-  name: "Devansh Digital",
+  name: "Devansh Enterprises",
   description: "Expert IT Consultancy and Solutions",
-  longDescription: "Devansh Digital offers comprehensive IT services including business strategy, project management, cybersecurity, and web/app development to drive your business forward.",
+  longDescription: "Devansh Enterprises offers comprehensive IT services including business strategy, project management, cybersecurity, and web/app development to drive your business forward.",
   url: "https://devansh.digital", // Replace with actual URL
   ogImage: "https://devansh.digital/og.jpg", // Replace with actual OG image URL
-  keywords: ["IT consultancy", "business strategy", "cybersecurity", "web development", "app development", "Devansh Digital"],
+  keywords: ["IT consultancy", "business strategy", "cybersecurity", "web development", "app development", "Devansh Enterprises"],
   navItems: [
     { title: "Services", href: "/services" },
     { title: "Portfolio", href: "/portfolio" },
@@ -57,11 +57,11 @@ export const SiteConfig = {
     },
   ] as PortfolioItem[],
   testimonials: [
-    { name: "Vinay Kumar", quote: "Devansh Digital transformed our business strategy. Their insights were invaluable and led to significant growth.", role: "CEO, FutureTech Solutions" },
-    { name: "Sagar Patel", quote: "The project management expertise from Devansh Digital kept our complex project on track and within budget. Highly recommended!", role: "Project Lead, Innovate Corp" },
-    { name: "Azim Khan", quote: "Their cybersecurity services are top-notch. We feel much more secure knowing our data is protected by Devansh Digital.", role: "IT Manager, SecureNet" },
+    { name: "Vinay Kumar", quote: "Devansh Enterprises transformed our business strategy. Their insights were invaluable and led to significant growth.", role: "CEO, FutureTech Solutions" },
+    { name: "Sagar Patel", quote: "The project management expertise from Devansh Enterprises kept our complex project on track and within budget. Highly recommended!", role: "Project Lead, Innovate Corp" },
+    { name: "Azim Khan", quote: "Their cybersecurity services are top-notch. We feel much more secure knowing our data is protected by Devansh Enterprises.", role: "IT Manager, SecureNet" },
     { name: "Nirupam Verma", quote: "The UI/UX design for our new app exceeded all expectations. It's beautiful, intuitive, and our users love it.", role: "Product Owner, AppFirst" },
-    { name: "Gunjan Sharma", quote: "Devansh Digital's team is professional, knowledgeable, and delivered a fantastic website that has boosted our online presence.", role: "Marketing Head, ConnectZ" },
-    { name: "Ruchi Chauhan", quote: "From data recovery to cloud security, Devansh Digital has been our go-to partner for all IT needs. Exceptional service!", role: "Operations Director, DataSafe Ltd." },
+    { name: "Gunjan Sharma", quote: "Devansh Enterprises' team is professional, knowledgeable, and delivered a fantastic website that has boosted our online presence.", role: "Marketing Head, ConnectZ" },
+    { name: "Ruchi Chauhan", quote: "From data recovery to cloud security, Devansh Enterprises has been our go-to partner for all IT needs. Exceptional service!", role: "Operations Director, DataSafe Ltd." },
   ] as Testimonial[],
 };

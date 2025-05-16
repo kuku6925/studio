@@ -11,7 +11,7 @@ export function TestimonialsSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">What Our Clients Say</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Real stories from satisfied clients who have experienced the Devansh Digital difference.
+            Real stories from satisfied clients who have experienced the Devansh Enterprises difference.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
