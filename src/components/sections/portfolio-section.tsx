@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import { SiteConfig } from '@/config/site';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -19,17 +19,7 @@ export function PortfolioSection() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {SiteConfig.portfolioItems.map((item) => (
-            <Card key={item.title} className="shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col overflow-hidden">
-              <div className="relative w-full h-56">
-                <Image
-                  src={item.imageUrl}
-                  alt={item.title}
-                  layout="fill"
-                  objectFit="cover"
-                  data-ai-hint={item.imageHint}
-                  className="transition-transform duration-300 group-hover:scale-105"
-                />
-              </div>
+            <Card key={item.title} className="shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <CardHeader>
                 <CardTitle className="text-xl">{item.title}</CardTitle>
                 <CardDescription>{item.description}</CardDescription>

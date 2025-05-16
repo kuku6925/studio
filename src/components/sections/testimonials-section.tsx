@@ -1,6 +1,6 @@
 import { SiteConfig } from '@/config/site';
 import { Card, CardContent } from '@/components/ui/card';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Container } from '@/components/shared/container';
 import { Star } from 'lucide-react';
 
@@ -20,7 +20,6 @@ export function TestimonialsSection() {
               <CardContent className="flex-grow p-0">
                 <div className="flex items-center mb-4">
                   <Avatar className="h-12 w-12 mr-4">
-                    {testimonial.avatar && <AvatarImage src={testimonial.avatar} alt={testimonial.name} />}
                     <AvatarFallback className="bg-primary text-primary-foreground">
                       {testimonial.name.split(' ').map(n => n[0]).join('')}
                     </AvatarFallback>
