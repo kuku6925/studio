@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export function HeroSection() {
   return (
-    <section id="hero" className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-gradient-to-br from-background to-secondary">
+    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-gradient-to-br from-background to-secondary">
       <Container className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-6 text-center lg:text-left">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
@@ -19,12 +19,12 @@ export function HeroSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Button asChild size="lg" className="shadow-lg hover:shadow-xl transition-shadow">
-              <Link href="#services">
+              <Link href="/services">
                 Explore Our Services <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="shadow-lg hover:shadow-xl transition-shadow">
-              <Link href="#contact">
+              <Link href="/contact">
                 Get a Free Consultation <Zap className="ml-2 h-5 w-5" />
               </Link>
             </Button>

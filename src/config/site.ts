@@ -9,11 +9,11 @@ export const SiteConfig = {
   ogImage: "https://devansh.digital/og.jpg", // Replace with actual OG image URL
   keywords: ["IT consultancy", "business strategy", "cybersecurity", "web development", "app development", "Devansh Digital"],
   navItems: [
-    { title: "Services", href: "#services" },
-    { title: "Portfolio", href: "#portfolio" },
-    { title: "Testimonials", href: "#testimonials" },
-    { title: "Consult-a-Bot", href: "#chatbot" },
-    { title: "Contact", href: "#contact" },
+    { title: "Services", href: "/services" },
+    { title: "Portfolio", href: "/portfolio" },
+    { title: "Testimonials", href: "/testimonials" },
+    { title: "Consult-a-Bot", href: "/chatbot" },
+    { title: "Contact", href: "/contact" },
   ] as NavItem[],
   services: [
     { name: "Business Strategies", description: "Crafting innovative strategies to drive growth and efficiency.", icon: Brain },

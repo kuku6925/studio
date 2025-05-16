@@ -60,7 +60,7 @@ export function ContactSection() {
   }, [state, toast, form]);
 
   return (
-    <section id="contact" className="py-16 lg:py-24 bg-gradient-to-br from-background to-secondary">
+    <section className="py-16 lg:py-24 bg-gradient-to-br from-background to-secondary">
       <Container>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>

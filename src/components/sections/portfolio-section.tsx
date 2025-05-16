@@ -9,7 +9,7 @@ import { ArrowRight } from 'lucide-react';
 
 export function PortfolioSection() {
   return (
-    <section id="portfolio" className="py-16 lg:py-24 bg-secondary">
+    <section className="py-16 lg:py-24 bg-secondary">
       <Container>
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Our Success Stories</h2>

@@ -4,7 +4,7 @@ import { Container } from '@/components/shared/container';
 
 export function ServicesSection() {
   return (
-    <section id="services" className="py-16 lg:py-24 bg-background">
+    <section className="py-16 lg:py-24 bg-background">
       <Container>
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Our Comprehensive IT Services</h2>
