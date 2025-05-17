@@ -77,10 +77,6 @@ export function ContactSection() {
                 <Mail className="h-5 w-5 text-primary" />
                 <p><strong>Email:</strong> <a href="mailto:devansh@enterprises.in" className="hover:text-primary transition-colors">devansh@enterprises.in</a></p>
               </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-primary" />
-                <p><strong>Phone:</strong> (555) 123-4567</p>
-              </div>
             </div>
           </div>
           <Card className="shadow-xl">
